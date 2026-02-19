@@ -1,0 +1,12 @@
+{
+  "pets": [
+    {
+      "id": "pet_demo",
+      "name": "Demo Pet",
+      "rarity": "Epic",
+      "bonuses": {
+        "attack": 50
+      }
+    }
+  ]
+}

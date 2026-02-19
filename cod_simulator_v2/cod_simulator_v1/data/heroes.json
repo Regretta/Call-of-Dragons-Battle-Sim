@@ -1,0 +1,45 @@
+{
+  "heroes": [
+    {
+      "id": "attacker_demo",
+      "name": "Demo Attacker",
+      "rarity": "Legendary",
+      "rage_cost": 1000,
+      "base_stats": {
+        "attack": 1200,
+        "defense": 800,
+        "health": 15000,
+        "crit_chance": 0.3,
+        "crit_damage": 1.7,
+        "skill_damage_bonus": 0.2,
+        "all_damage_bonus": 0.1,
+        "rage_bonus": 0.05
+      },
+      "skill_factor": 1400,
+      "skill_effects": [
+        {
+          "type": "buff",
+          "target": "attacker",
+          "stat": "skill_damage_bonus",
+          "value": 0.1,
+          "duration_s": 3
+        }
+      ]
+    },
+    {
+      "id": "defender_demo",
+      "name": "Demo Defender",
+      "rarity": "Epic",
+      "rage_cost": 1000,
+      "base_stats": {
+        "attack": 1000,
+        "defense": 900,
+        "health": 15000,
+        "damage_reduction": 0.1,
+        "shield": 0
+      },
+      "skill_factor": 1200,
+      "skill_effects": []
+    }
+  ]
+}

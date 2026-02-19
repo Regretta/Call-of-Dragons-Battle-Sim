@@ -1,0 +1,82 @@
+{
+  "talents": [
+    {
+      "id": "t1",
+      "stat": "skill_damage_bonus",
+      "value_per_rank": 0.03,
+      "max_rank": 5,
+      "name": "Arcane Focus",
+      "description": "Increase skill damage.",
+      "tree": "Magic",
+      "x": 0.25,
+      "y": 0.25,
+      "prereq": []
+    },
+    {
+      "id": "t2",
+      "stat": "crit_chance",
+      "value_per_rank": 0.01,
+      "max_rank": 5,
+      "name": "Spell Precision",
+      "description": "Increase crit chance.",
+      "tree": "Magic",
+      "x": 0.35,
+      "y": 0.35,
+      "prereq": [
+        "t1"
+      ]
+    },
+    {
+      "id": "t3",
+      "stat": "all_damage_bonus",
+      "value_per_rank": 0.02,
+      "max_rank": 5,
+      "name": "Elemental Surge",
+      "description": "Increase all damage.",
+      "tree": "Magic",
+      "x": 0.45,
+      "y": 0.45,
+      "prereq": [
+        "t2"
+      ]
+    },
+    {
+      "id": "c1",
+      "stat": "damage_reduction",
+      "value_per_rank": 0.01,
+      "max_rank": 5,
+      "name": "Control Ward",
+      "description": "Reduce damage taken.",
+      "tree": "Control",
+      "x": 0.65,
+      "y": 0.35,
+      "prereq": []
+    },
+    {
+      "id": "c2",
+      "stat": "skill_damage_bonus",
+      "value_per_rank": 0.02,
+      "max_rank": 5,
+      "name": "Silencing Field",
+      "description": "Boost skill damage after control.",
+      "tree": "Control",
+      "x": 0.75,
+      "y": 0.45,
+      "prereq": [
+        "c1"
+      ]
+    },
+    {
+      "id": "f1",
+      "stat": "attack",
+      "value_per_rank": 10,
+      "max_rank": 10,
+      "name": "Battle Training",
+      "description": "Increase attack (flat).",
+      "tree": "Foundation",
+      "x": 0.5,
+      "y": 0.8,
+      "prereq": []
+    }
+  ]
+}
