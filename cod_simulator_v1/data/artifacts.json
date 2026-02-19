@@ -1,0 +1,16 @@
+{
+  "artifacts": [
+    {
+      "id": "art_demo",
+      "name": "Demo Artifact",
+      "rarity": "Legendary",
+      "main_stat": {
+        "stat": "all_damage_bonus",
+        "value": 0.05
+      },
+      "secondary_stats": {
+        "crit_chance": 0.02
+      }
+    }
+  ]
+}

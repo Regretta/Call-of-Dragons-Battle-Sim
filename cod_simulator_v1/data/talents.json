@@ -1,0 +1,16 @@
+{
+  "talents": [
+    {
+      "id": "t1",
+      "stat": "skill_damage_bonus",
+      "value_per_rank": 0.03,
+      "max_rank": 5
+    },
+    {
+      "id": "t2",
+      "stat": "crit_chance",
+      "value_per_rank": 0.01,
+      "max_rank": 5
+    }
+  ]
+}
